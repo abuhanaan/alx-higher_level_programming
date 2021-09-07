@@ -24,3 +24,4 @@ Namespaces are one honking great idea -- let's do more of those!
 | Projects                        | Description                                                                     |
 | ------------------------------- | ------------------------------------------------------------------------------- |
 | 0x00. Python - Hello, World     | The very basics of Python.                                                      |
+| 0x01. Python - if/else, loops, functions | Control flows, Loops, Functions, Scope of Variables, return statement, pass, range ... |
