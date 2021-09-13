@@ -9,3 +9,4 @@
 - You can assume that the list only contains integers
 - You are not allowed to cast integers into strings
 - You have to use str.format() to print integers    |
+| 1. Secure access to an element in a list  | Write a function that retrieves an element from a list like in C.   |
