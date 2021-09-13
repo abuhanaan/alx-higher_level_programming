@@ -1,11 +1,10 @@
 #!/usr/bin/python3
 
 def print_reversed_list_integer(my_list=[]):
-    if not my_list and type(my_list) is not list:
-        return
+    """
+    A function that prints all integers of a list, in reverse order
+    """
+    if my_list == None:
+        return None
     for i in my_list[::-1]:
         print("{:d}".format(i))
-
-
-my_list = [1, 2, 3, 4, 5]
-print_reversed_list_integer(my_list)
