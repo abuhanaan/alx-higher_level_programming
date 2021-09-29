@@ -1,13 +1,13 @@
 # 0x06. Python - Classes and Objects
 
-* Four major principles depicted in this projected
+*Four major principles depicted in this projected*
 - Encapsulation
 - Data Abstraction
 - Polymorphism
 - Inheritance
 
 
-* Resources: 
+*Resources:* 
 - [Object Oriented Programming - 1](https://python.swaroopch.com/oop.html)
 - [Object Oriented Programming - 2](https://www.python-course.eu/python3_properties.php)
 - [Learn to Program 9 : Object Oriented Programming](https://www.youtube.com/watch?v=1AGyBuVCTeE)
