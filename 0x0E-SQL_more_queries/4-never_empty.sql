@@ -1,11 +1,3 @@
--- Lists all genres of the show Dexter in the database hbtn_0d_tvshows
-SELECT genres.`name` AS name
-FROM `tv_genres` AS `genres`
-INNER JOIN `tv_show_genres` AS `show_genres`
-ON genres.`id` = show_genres.`genre_id`
-
-INNER JOIN `tv_shows` AS `shows`
-ON shows.`id` = show_genres.`show_id`
-
-WHERE shows.title = "Dexter"
-ORDER BY name;
+-- creates the table id_not_null on yout MySQL server
+CREATE TABLE IF NOT EXISTS id_not_null 
+(id INT DEFAULT 1, name VARCHAR(256));
