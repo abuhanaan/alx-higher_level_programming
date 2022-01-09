@@ -3,12 +3,16 @@
 - https://intranet.hbtn.io/status.
 - uses urlib package
 """
+import urllib.request
+
+
+from urllib import request
 
 
 if __name__ == '__main__':
-    import urllib.request
 
-    with urllib.request.urlopen('https://intranet.hbtn.io/status') as res:
+    request = urllib.request.Request('https://intranet.hbtn.io/status')
+    with urllib.request.urlopen(request) as res:
         content = res.read()
         print("Body response:")
         print("\t- type: {}".format(type(content)))
